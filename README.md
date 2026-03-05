@@ -216,4 +216,4 @@ El simulador permite parametrización dinámica y está listo para ser utilizado
 Para preguntas, datasets, contribuciones o posibles alianzas:  
 Abre un issue en este repositorio o contacta directamente al equipo.
 
-¡Gracias por tu interés en **Justina** – construyendo robótica quirúrgica accesible para América Latina!
+¡Gracias por tu interés en **Justina** – construyendo robótica quirúrgica accesible!
