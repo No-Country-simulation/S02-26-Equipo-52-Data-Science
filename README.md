@@ -1,10 +1,10 @@
 # S02-26-Equipo-52-Data-Science
 Business Intelligence para robótica quirúrgica: modelo de adopción y escalabilidad.
-# 🤖 Justina – Business Intelligence para Robótica Quirúrgica: Modelo de Adopción y Escalabilidad en LATAM
+# 🤖 Justina – Business Intelligence para Robótica Quirúrgica: Modelo de Adopción y Escalabilidad
 
 ## 📌 Descripción General
 
-**Justina** es una iniciativa académico-tecnológica que evalúa la factibilidad de desarrollar un sistema robótico asistido para **cirugía renal mínimamente invasiva** en contextos de América Latina.
+**Justina** es una iniciativa académico-tecnológica que evalúa la factibilidad de desarrollar un sistema robótico asistido para **cirugía renal mínimamente invasiva**.
 
 El proyecto aborda el principal desafío en esta etapa temprana: no solo tecnológico, sino **estratégico y económico**.
 
@@ -17,7 +17,7 @@ Este repositorio contiene el framework de **Business Intelligence** aplicado a h
 
 ## 🎯 Objetivos del Proyecto
 
-- 📊 Dimensionar el mercado potencial (**TAM, SAM, SOM**) con foco regional (Latinoamérica).  
+- 📊 Dimensionar el mercado potencial (**TAM, SAM, SOM**) con foco regional.  
 - 💰 Comparar costos y modelos de negocio de plataformas existentes (da Vinci, Versius, Hugo RAS).  
 - 🏥 Diseñar un modelo económico preliminar para **Justina** (CAPEX, OPEX, TCO).  
 - 🔍 Explorar estrategias de adopción en hospitales públicos, privados y universitarios.  
