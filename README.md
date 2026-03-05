@@ -4,12 +4,11 @@ Business Intelligence para robótica quirúrgica: modelo de adopción y escalabi
 
 ## 📌 Descripción General
 
-**Justina** es una iniciativa académico-tecnológica que evalúa la factibilidad de desarrollar un sistema robótico asistido para **cirugía renal mínimamente invasiva**.
+**Justina** es una iniciativa académico-tecnológica en plataforma de Business Intelligence (BI) que evalúa la factibilidad económica y operativa de desarrollar un sistema robótico asistido para **cirugía renal mínimamente invasiva** diseñada para transformar datos complejos de la industria MedTech en decisiones estratégicas. 
 
-El proyecto aborda el principal desafío en esta etapa temprana: no solo tecnológico, sino **estratégico y económico**.
-
-> Pregunta central:  
-> **¿Existe un modelo de adopción y negocio viable para robótica quirúrgica en América Latina?**
+ 
+> A través de un modelo de datos integrado, Justina permite  
+> **simular escenarios de mercado, comparar estructuras de adquisición (CAPEX/OPEX) y proyectar el retorno de inversión (ROI)** hospitalario basado en eficiencia clínica real.
 
 Este repositorio contiene el framework de **Business Intelligence** aplicado a healthtech, incluyendo análisis de mercado, benchmarks competitivos, modelado económico, simulación de escenarios y dashboards interactivos.
 
@@ -17,10 +16,10 @@ Este repositorio contiene el framework de **Business Intelligence** aplicado a h
 
 ## 🎯 Objetivos del Proyecto
 
-- 📊 Dimensionar el mercado potencial (**TAM, SAM, SOM**) con foco regional.  
+- 📊 Dimensionamiento Global: Cuantificación del mercado (**TAM, SAM, SOM**) utilizando datos oncológicos de la OMS (GLOBOCAN 2022).  
 - 💰 Comparar costos y modelos de negocio de plataformas existentes (da Vinci, Versius, Hugo RAS).  
 - 🏥 Diseñar un modelo económico preliminar para **Justina** (CAPEX, OPEX, TCO).  
-- 🔍 Explorar estrategias de adopción en hospitales públicos, privados y universitarios.  
+- 🔍 Simulación de ROI: Proyección de flujo de caja y payback hospitalario basado en ahorros operativos validados.  
 - 📈 Definir **KPIs** de impacto clínico y económico.  
 - 🧠 Construir herramientas interactivas (dashboards) para simulación de escenarios y toma de decisiones.
 
@@ -45,23 +44,47 @@ Esto representa una oportunidad para soluciones optimizadas regionalmente, con m
 
 ---
 
+🏗️ Arquitectura del Proyecto y Enfoque Multidisciplinario
+
+El éxito del modelo reside en la integración de tres disciplinas clave:
+
+Data Architecture: ETL y estructuración de bases de datos para normalizar registros globales.
+
+Data Science: Modelado predictivo y análisis de escenarios para proyectar curvas de adopción y eficiencia.
+
+Business Intelligence: Diseño de un dashboard interactivo en Streamlit que traduce métricas técnicas en insights de negocio.
+
 ## 🧠 Hipótesis Estratégicas
 
 1. **H1 – Oportunidad cuantificable**  
-   Existe potencial de expansión en países seleccionados, con diferencias en penetración y capacidad de inversión.
+   Mercado: Existe una demanda cuantificable en centros con capacidad laparoscópica previa que aún no han dado el salto a la robótica.
 
 2. **H2 – Reducción de barreras**  
-   Modelos flexibles (leasing, pago por uso) amplían el universo de hospitales adoptantes.
+   La migración de CAPEX a Modelos flexibles (Leasing Operativo, pago por uso) amplían el universo de hospitales adoptantes.
 
-3. **H3 – Justificación económica**  
-   El impacto clínico (menos días de internación, menos complicaciones) genera ahorros que justifican la inversión hospitalaria.
+3. **H3 – Impacto Clínico**  
+   La reducción de complicaciones clínicas genera un ahorro operativo que autofinancia el costo del sistema.
 
 ---
 
-## 🏗️ Estructura del Modelo
+## 🔬 Estructura del Dashboard (Pestañas)
 
-Lógica secuencial:  
-**Mercado → Impacto Clínico → ROI Hospitalario → Modelo Financiero → Sostenibilidad Empresarial**
+1. Oportunidad de Mercado (TAM-SAM-SOM)
+Análisis detallado de incidencia por país y segmentación de centros hospitalarios elegibles.
+
+KPIs: Volumen Quirúrgico, Escenarios de Ingresos y Penetración por Región.
+
+2. Modelos de Adquisición
+Comparativa de la barrera de entrada entre Compra Directa, Leasing y Pago por Uso.
+
+Insight Clave: Basado en la tendencia de Intuitive Surgical (da Vinci) hacia el usage-based operating lease.
+
+3. Viabilidad Económica y ROI Hospitalario
+Simulador de rentabilidad para el centro de salud.
+
+Ahorro Unitario: $1.929 USD por procedimiento (Validado por evidencia científica).
+
+KPIs: Tiempo de Recupero (Payback) y Punto de Equilibrio (Break-even).
 
 ### 1️⃣ Análisis de Mercado (TAM, SAM, SOM)
 
@@ -121,31 +144,6 @@ Esto permite comparar empresas y regiones bajo una misma métrica operativa.
 
 ---
 
-### 4️⃣ Modelado de Adopción en LATAM
-
-Simulación basada en:
-
-**Segmentación hospitalaria**
-- Tier 1: Clínicas privadas de alta complejidad
-- Tier 2: Centros regionales de referencia
-- Hospitales públicos
-
-**Factores de adopción**
-- Volumen de procedimientos
-- Modelos de financiamiento
-- Prestigio clínico
-- Estructura de reembolso
-
-**Escenarios**
-- Conservador
-- Moderado
-- Agresivo
-
----
-
-
----
-
 ## 📈 Métricas Clave Analizadas
 
 - Base instalada por país
@@ -170,83 +168,52 @@ Simulación basada en:
 
 ---
 
-## 🧮 Preguntas Analíticas Clave
+## 📚 Fundamentación Científica (Fuentes)
 
-- ¿Cuál es el volumen mínimo de procedimientos para alcanzar breakeven en Chile?
-- ¿Qué tan sensible es la adopción al precio de los instrumentos?
-- ¿Un modelo de menor CAPEX aceleraría la captura del SOM?
-- ¿Qué porcentaje de cirugías renales en LATAM son económicamente robotizables?
+El modelo se sustenta en evidencia de vanguardia (2025-2026):
 
----
+Mercado: Global Cancer Observatory (GLOBOCAN 2022/2025).
 
-## 💻 Dashboard Interactivo
+Costo-Efectividad: Tang Y, & Dou B. (Agosto, 2025) - Frontiers in Public Health.
 
-Se desarrolló una aplicación para simular escenarios en tiempo real.
+Guías Clínicas: EAU Guidelines on Renal Cell Carcinoma (2025 Update).
 
-
-**Características principales:**
-
-- Sliders para ajustar CAGR, adopción, CAPEX, OPEX, etc.  
-- Gráficos interactivos TAM/SAM/SOM  
-- Proyecciones financieras (ingresos, cash-flow, ROI, break-even)  
-- Exportación a CSV de resultados
+Tendencias: Rojas Burbano J, et al. (Abril, 2025) - Cureus Journal of Medical Science.
 
 ---
 
-## 👥 Equipo
+## 👥 Equipo (S02-26-Equipo 52)
 
 Equipo interdisciplinario con perfiles en Business Intelligence, ingeniería biomédica, economía de la salud y ciencia de datos.
 
-- **Marianela Pi** 
-- **Franco Gastón Cuello**  
-- **Antonio Pérez Sandoval** 
-- **Lourdes Gabriela Sanchez Almaraz**
+- **Marianela Pi**  – Data Scientist
+- **Franco Gastón Cuello** – Data Architect
+- **Antonio Pérez Sandoval** – BI Analyst
+- **Lourdes Gabriela Sanchez Almaraz** – Data Scientist
 
 ---
 
 ## 🛠 Tecnologías y Herramientas
 
-- Python (Pandas, NumPy, Matplotlib, Plotly)  
-- Streamlit / Jupyter Notebooks  
-- Modelamiento financiero en Excel  
+- Lenguajes: Python (Pandas, NumPy, Matplotlib, Plotly)  
+- Despliegue: Streamlit / Jupyter Notebooks  
+- Modelado: Excel & Python para proyecciones financieras  
 - GitHub para control de versiones  
-- Google Drive para datasets y materiales colaborativos:  
-  [Carpeta del proyecto](https://drive.google.com/drive/folders/1UMhbTtkFWXMtt9gV0WXYhT_VbQWczDfO)
+- Colaboración: GitHub & Google Drive para gestión de Datasets  
 
 ---
 
 ## 📌 Estado Actual (marzo 2026)
 
 - 🟢 Framework competitivo y análisis de mercado completado  
-- 🟢 Modelos determinísticos y Monte Carlo implementados  
-- 🟡 Simulación de adopción hospitalaria en progreso  
-- 🟡 Dashboard interactivo en desarrollo / refinamiento  
-- 🟡 Preparación para validación con datos reales y stakeholders
+- 🟢 Modelos determinísticos implementados  
+- 🟢 Dashboard interactivo en desarrollo / refinamiento  
 
----
-
-## ⚠ Limitaciones
-
-- Análisis basado en datos públicos, benchmarks y supuestos explícitos  
-- Sensible a variaciones en volumen quirúrgico, ahorro clínico y adopción  
-- Aún sin validación empírica directa en hospitales  
-- Proyecto académico de factibilidad – no representa un dispositivo comercial
-
----
-
-## 🚀 Próximos Pasos
-
-- Refinar curvas de adopción por país y tier hospitalario  
-- Incorporar NPV y análisis de sensibilidad avanzado  
-- Desplegar dashboard público (Streamlit Sharing / Hugging Face)  
-- Buscar alianzas para validación clínica/económica  
-- Preparar pitch para financiamiento / aceleradoras healthtech
-
----
+El simulador permite parametrización dinámica y está listo para ser utilizado en presentaciones de inversión y planificación estratégica de salud.
 
 ## 📬 Contacto y Colaboraciones
 
 Para preguntas, datasets, contribuciones o posibles alianzas:  
 Abre un issue en este repositorio o contacta directamente al equipo.
 
-¡Gracias por tu interés en **Justina** – construyendo robótica quirúrgica accesible para América Latina! 🇦🇷🇲🇽🇧🇷
+¡Gracias por tu interés en **Justina** – construyendo robótica quirúrgica accesible para América Latina!
