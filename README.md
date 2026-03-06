@@ -83,9 +83,10 @@ El modelo se sustenta en evidencia de vanguardia (2025-2026):
 * Marianela Pi – BI Analyst
 * Lourdes Gabriela Sánchez Almaraz – Data Scientist
 
-*⚠️ Estado del Proyecto
-*🟢 Finalizado / Productivo
+* ⚠️ Estado del Proyecto
+* 🟢 Finalizado / Productivo
 
 El simulador permite parametrización dinámica y está listo para ser utilizado en presentaciones de inversión y planificación estratégica de salud.
+
 
 
