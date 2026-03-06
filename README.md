@@ -78,13 +78,14 @@ El modelo se sustenta en evidencia de vanguardia (2025-2026):
 * **Colaboración:** GitHub (Control de versiones).
 
 👥 Equipo (S02-26-Equipo 52)
-*Antonio Pérez Sandoval – Data Scientist
-*Franco Gastón Cuello – Data Architect
-*Marianela Pi – BI Analyst
-*Lourdes Gabriela Sánchez Almaraz – Data Scientist
+* Antonio Pérez Sandoval – Data Scientist
+* Franco Gastón Cuello – Data Architect
+* Marianela Pi – BI Analyst
+* Lourdes Gabriela Sánchez Almaraz – Data Scientist
 
 *⚠️ Estado del Proyecto
 *🟢 Finalizado / Productivo
 
 El simulador permite parametrización dinámica y está listo para ser utilizado en presentaciones de inversión y planificación estratégica de salud.
+
 
