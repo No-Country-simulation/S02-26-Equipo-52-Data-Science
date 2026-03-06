@@ -9,8 +9,7 @@ Antes de profundizar en la documentación técnica, puede acceder a las herramie
 
 * **🖥️ Dashboard Interactivo (Streamlit):** [Link al Dashboard aquí]
 * **💻 Repositorio de Código (GitHub):** [Link al Repositorio aquí]
-    * *Nota: Incluye el motor de proyecciones paramétricas desarrollado en Google Colab y el script de visualización de la aplicación.*
-
+    
 ---
 
 ### 📌 Descripción General
@@ -87,6 +86,7 @@ El modelo se sustenta en evidencia de vanguardia (2025-2026):
 * 🟢 Finalizado / Productivo
 
 El simulador permite parametrización dinámica y está listo para ser utilizado en presentaciones de inversión y planificación estratégica de salud.
+
 
 
 
