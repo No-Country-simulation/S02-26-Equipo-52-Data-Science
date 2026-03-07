@@ -30,7 +30,8 @@ A través de un modelo de datos integrado, Justina permite simular escenarios de
 ### 🏗️ Arquitectura del Proyecto y Enfoque Multidisciplinario
 El éxito del modelo reside en la integración de tres disciplinas clave:
 
-1.  **Data Architecture:** ETL y estructuración de bases de datos para normalizar registros globales de incidencia oncológica.
+1.  **Data Architecture:** Diseño y construcción del pipeline de datos mediante procesos ETL para integrar, limpiar y normalizar registros globales de incidencia oncológica provenientes de distintas fuentes.
+Se estructuró una base de datos que permite organizar registros clínicos, optimizando su disponibilidad para análisis posteriores y consumo por herramientas analíticas.
 2.  **Data Science (Pilar de Modelado):** Desarrollo en entorno **Python (Google Colab)** de un modelo dinámico para proyectar métricas a X años. Utilizando a **América Latina (SAM LatAm ~USD 400M)** como caso de estudio base, se aplicaron tasas CAGR (12-15%) y pruebas de sensibilidad (±40%) para validar la robustez matemática del negocio.
 3.  **Business Intelligence:** Diseño de un dashboard interactivo en **Streamlit** que escala el modelo regional a una visión global, permitiendo simulaciones específicas por país.
 
@@ -86,6 +87,7 @@ El modelo se sustenta en evidencia de vanguardia (2025-2026):
 * 🟢 Finalizado / Productivo
 
 El simulador permite parametrización dinámica y está listo para ser utilizado en presentaciones de inversión y planificación estratégica de salud.
+
 
 
 
